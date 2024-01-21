@@ -246,6 +246,26 @@ html { scroll-behavior: smooth; }
       cursor: pointer;
       margin-top: -210px;
     }
+
+
+
+    .artsuh {
+      display: flex;
+        justify-content: center;
+        gap: 0px;
+        gap: 30px;
+    }
+    .art1 {
+        height: 800px;
+        width: 500px;
+    }
+    
+    .art3 {
+        height: 800px;
+        width: 500px;
+    }
+
+
     
     
 
@@ -288,22 +308,6 @@ display: none;
 .texts3 {
   margin-left: 180px;
   margin-top: 500px;
-}
-
-
-.art3 {
-  margin-right: -200px;
-  height: 400px;
-  width: 207px;
-}
-
-
-.art1 {
-  position: absolute;
-  margin-left: -200px;
-  height: 400px;
-  width: 205px;
-  margin-top: 0px;
 }
 
 
