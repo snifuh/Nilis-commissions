@@ -11,20 +11,18 @@ html { scroll-behavior: smooth; }
 
 .artsuh {
   display: flex;
-  justify-content: center;
-  align-items: center;
+    justify-content: center;
+    gap: 0px;
+    gap: 30px;
 }
 .art1 {
-  position: absolute;
-    margin-left: 500px;
-    margin-top: -400px;
-    height: 400px;
-    width: 400px;
+    height: 800px;
+    width: 500px;
 }
 
 .art2 {
     height: 500px;
-    width: 300px;
+    width: 500px;
     margin-right: 400px;
 }
 
@@ -33,11 +31,6 @@ html { scroll-behavior: smooth; }
     width: 500px;
 }
 
-.art4 {
-    margin-top: 400px;
-    height: 400px;
-    width: 400px;
-}
 
 .art5 {
     height: 735px;
@@ -313,11 +306,6 @@ display: none;
   margin-top: 0px;
 }
 
-
-.art4 {
-  display: none;
-  
-}
 
 .art5 {
   height: 300px;
