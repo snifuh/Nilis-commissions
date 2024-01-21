@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="nili.css">
+    <title>Nili's Commissions</title>
+</head>
+<body>
+
+  <!--THIS SITE WAS MADE BY SPOOKY, CHECK OUT MY TWITTER I MAKE COOL THINGS! @SPXXKY_--->
+
+  <div class="warning">
+    <h1>Sorry, your device is not supported :c</h1>
+  </div> 
+
+    <div class="everything">
+    <div class="header">
+        <h1>Welcome!</h1>
+      </div> 
+
+
+      <div class="dark">
+        <input type="button" id="off" class="dark2" value="Toggle dark mode" onclick="darkmode()"/>
+        <img src="pookie.png" class="minipookie" id="minipookie">
+        <p class="pookietext" id="pookietext">Nice!</p>
+      </div>
+
+     
+        
+      
+
+      <hr class="vonal" style="text-align: center; width: 500px; margin-top: -100px; color: white;"> 
+
+      
+      <div class="buttons">
+        <a href="#intro" class="button1">Introduction</a>
+        <a href="#exa" class="button1">Examples & Prices</a>
+        <a href="#soc" class="button1">Info</a>
+        <a href="#pay" class="button1">Payment</a>
+      </div>
+      
+
+
+      <div id="intro"></div>
+      <div class="texts">
+      <p class="hi">Hi! My name is Nili, I'm a digital artist and I've been drawing since 2018.<br>Since i really like to draw, i've decided to open a commission page!</p>
+      </div>
+
+      <div class="texts">
+        <h2>Commissions:</h2>
+        <p>I will draw you OC or fursona as long as its SFW! <br>I can do sketches or fully detailed drawings!<br>My preferred style is anime style!</p>
+        <p>Examples & Payment bellow!</p>
+        </div>
+
+
+      <div class="texts" id="exa">
+        <h2>Categories & Prices:</h2>
+        <h2 class="chibiagain">Chibi:</h2>
+        </div>
+
+
+        <div class="prices">
+        <div class="texts3">
+            <p>Chibi sketch - 5$</p>
+            <p>Line art - 7$</p>
+            <p>Basic shading - 10$</p>
+            </div>
+        </div>
+
+
+        <div class="texts2">
+            <h2 class="chibi">Chibi:</h2>
+            </div>
+      <div class="images">
+        <img src="art2.jpg" class="art2">
+      </div>
+
+      
+
+      <div class="texts4">
+        <h2>Anime OC:</h2>
+        <p>Fully detailed anime OC art with shading - 40$</p>
+        <p>OC Sketch - 15$</p>
+        </div>
+  <div class="images">
+    <div class="artsuh">
+    <img src="art3.png" class="art3">
+    <img src="art4.jpg" class="art4">
+    <img src="art1.jpg" class="art1">
+    </div>
+  </div>
+
+  <div class="texts4">
+    <div class="furry">
+    <h2>Fursonas:</h2>
+    <p>Full Fursona - 40$</p>
+    <p>Fursona Sketch - 15$</p>
+    </div>
+  </div>
+    <div class="images2">
+        <img src="art5.png" class="art5">
+        <img src="art6.jpg" class="art6">
+      </div>
+
+
+      <div class="texts" id="soc">
+        <div class="rest">
+        <h2>Drawing period:</h2>
+        <p>Sketches will take 1-3 days to complete,<br>Detailed arts will take up to a week to complete! So be patient!</p>
+        <p>If anything unusual happens and the art gets delayed, you will be notified on the preferred platform!</p>
+        <h2>Additional information:</h2>
+        <p>I mostly do digital art, but i accept traditional commissions too!</p>
+        <p>Backgrounds and additional things are optional, theres no added fee!</p>
+        </div>
+        </div>
+
+
+
+      <div class="texts" id="pay">
+        <h2>Payment:</h2>
+        <p>Every payment is through PayPal only!<br>I am not giving first! You must send the money first and then you will receive your art!</p>
+        <h2>Interested? Click the button bellow to get started!</h2>
+        </div>
+
+        <div class="startbutton">
+        <input type="button" class="start" value="Get Started!" onclick="location.href='checkout.html'"/>
+      </div>
+
+      <div class="texts">
+      <footer>
+        <a class="pookie" href="https://twitter.com/spxxkyy_" target="blank">Site made by Spooky!<br>(@spxxkyy_)</a>
+      </footer>
+      </div>
+
+
+
+<script>
+  function darkmode()
+  {   
+  document.body.style.backgroundColor= "black";
+  var audio = document.getElementById("minipookie").style.display = 'block';
+  var audio = document.getElementById("pookietext").style.display = 'block';
+  setTimeout(function() {
+    var audio = document.getElementById("minipookie").style.display = 'none';
+    var audio = document.getElementById("pookietext").style.display = 'none';
+    var audio = document.getElementById("off").disabled = true;
+      var audio = document.getElementById('off').style.visibility = 'hidden';
+
+  }, 2000);
+  }
+  </script>
+
+    </div>
+
+
+
+</body>
+</html>
