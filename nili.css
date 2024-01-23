@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(125, 222, 254);
+    background-color: rgb(171,161,150);
     overflow-x: hidden;
 }
 
@@ -229,6 +229,13 @@ html { scroll-behavior: smooth; }
   @media screen and (min-width: 1px) and (max-width: 640px)
   { 
 
+    body {
+      background-color: rgb(171,161,150);
+      overflow-x: hidden;
+  }
+
+
+
     .dark {
       display: flex;
       justify-content: left;
@@ -255,9 +262,6 @@ html { scroll-behavior: smooth; }
     
     
 
-    body {
-      background-color: rgb(125, 222, 254);
-      overflow-x: hidden;
   }
 
   .vonal {
@@ -325,7 +329,6 @@ display: none;
   width: 207px;
 }
 
-  }
 
   @media screen and (min-width: 0px) and (max-width: 250px)
   { 
