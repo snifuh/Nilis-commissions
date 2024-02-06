@@ -35,14 +35,14 @@ html { scroll-behavior: smooth; }
     background: none;
     color: white;
     font-size: 30px;
-    font-family: cursive;
+    font-family:Georgia, 'Times New Roman', Times, serif;
   }
 
   .texts {
     margin-top: 50px;
     text-align: center;
     color: white;
-    font-family: cursive;
+    font-family:Georgia, 'Times New Roman', Times, serif;
     font-size: larger;
     user-select: none;
   }
@@ -52,7 +52,7 @@ html { scroll-behavior: smooth; }
     margin-right: 625px;
     text-align: center;
     color: white;
-    font-family: cursive;
+    font-family:Georgia, 'Times New Roman', Times, serif;
     font-size: larger;
     user-select: none;
   }
@@ -61,7 +61,7 @@ html { scroll-behavior: smooth; }
     margin-top: 50px;
     text-align: center;
     color: white;
-    font-family: cursive;
+    font-family:Georgia, 'Times New Roman', Times, serif;
     font-size: larger;
     user-select: none;
   }
@@ -72,7 +72,7 @@ html { scroll-behavior: smooth; }
     margin-left: 300px;
     text-align: center;
     color: white;
-    font-family: cursive;
+    font-family:Georgia, 'Times New Roman', Times, serif;
     font-size:x-large;
     user-select: none;
   }
@@ -88,14 +88,14 @@ html { scroll-behavior: smooth; }
     background: none;
     border: none;
     color: white;
-    font-family: cursive;
+    font-family:Georgia, 'Times New Roman', Times, serif;
     text-decoration: underline;
     font-size: large;
     cursor: pointer;
   }
 
   .start {
-    font-family: cursive;
+    font-family:Georgia, 'Times New Roman', Times, serif;
     background-color: white;
     border: none;
     background: none;
@@ -121,7 +121,7 @@ html { scroll-behavior: smooth; }
     background: none;
     border: none;
     color: white;
-    font-family: cursive;
+    font-family:Georgia, 'Times New Roman', Times, serif;
     text-decoration: underline;
     font-size:small;
     cursor: pointer;
@@ -133,7 +133,7 @@ html { scroll-behavior: smooth; }
     background: none;
     border: none;
     color: white;
-    font-family: cursive;
+    font-family:Georgia, 'Times New Roman', Times, serif;
     text-decoration: underline;
     font-size:small;
     cursor: pointer;
@@ -148,7 +148,7 @@ html { scroll-behavior: smooth; }
   .paypal {
     text-decoration: none;
     color: white;
-    font-family: cursive;
+    font-family:Georgia, 'Times New Roman', Times, serif;
     font-size: x-large;
     text-decoration: underline;
   }
@@ -160,7 +160,7 @@ html { scroll-behavior: smooth; }
   }
 
   .pookietext {
-    font-family: 'Fredoka One', cursive;
+    font-family:Georgia, 'Times New Roman', Times, serif;
     color: white;
     display: none;
     position: absolute;
@@ -220,7 +220,7 @@ html { scroll-behavior: smooth; }
       background: none;
       border: none;
       color: white;
-      font-family: cursive;
+      font-family:Georgia, 'Times New Roman', Times, serif;
       text-decoration: underline;
       font-size:small;
       cursor: pointer;
@@ -335,7 +335,7 @@ display: none;
   background: none;
   color: white;
   font-size: 10px;
-  font-family: cursive;
+  font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
   }
