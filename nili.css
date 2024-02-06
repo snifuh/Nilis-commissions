@@ -241,19 +241,42 @@ html { scroll-behavior: smooth; }
       margin-left: 150px;
     }
 
-.buttons {
-  display: none;
-}
+    .buttons {
+    display: none;
+    }
 
-.vonal {
-  display: none;
-}
+    .vonal {
+   display: none;
+   }
 
-.images2 {
-  display: flex;
-  justify-content: center;
-  gap: 30px;
-}
+   .images2 {
+   display: flex;
+   justify-content: center;
+    gap: 30px;
+   }
+
+    .art5 {
+      position: absolute;
+    height: 200px;
+    width: 100px;
+    
+    }
+  
+    .art1 {
+      position: absolute;
+      margin-top: 425px;
+    }
+
+   .kell {
+    margin-top: 450px;
+   }
+    
+  
+    .art6 {
+     height: 200px;
+     margin-top: 425px;
+     width: 100px;
+     }
 
   }
 
